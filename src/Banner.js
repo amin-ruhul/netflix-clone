@@ -12,8 +12,8 @@ function Banner() {
             setMovie(
                 request.data.results[
                     Math.floor(Math.random()*request.data.results.length-1)
-                ]
-            )
+            ]
+        )
         }
         fetchDate(); 
     }, []);
@@ -48,4 +48,4 @@ function Banner() {
     )
 }
 
-export default Banner
+export default Banner 

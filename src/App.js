@@ -19,8 +19,8 @@ function App() {
       <Row title="Mystery" fetchUrl={requests.fetchMystery}/>
       <Row title="Si-Fi Movie" fetchUrl={requests.fetchSciFi}/>
       <Row title="Animation Movies" fetchUrl={requests.fetchAnimation}/>
-      <Row title="Western Movies" fetchUrl={requests.fetchWestern}/>
-    </div>
+      <Row title="Western Movies" fetchUrl={requests.fetchWestern} />
+    </div> 
   );
 }
 
